@@ -9,7 +9,7 @@ ul {
 }
 .container {
   max-width: 1400px;
-  padding: 0px 5px;
+  margin: 0px 5px;
   margin: 0 auto;
 }
 .menu {
@@ -154,6 +154,7 @@ service
   background-color: #595d60;
 }
 .small__container-top {
+
   padding-top: 64px;
   text-align: center;
   font-family: "HelveticaNeue";
@@ -323,6 +324,7 @@ games
 */
 .games {
   margin: 0 auto;
+  max-width: 1400px;
 }
 .games__inner-block {
   background-image: url("../images/Rectangle.png");
@@ -454,7 +456,9 @@ design
  background-color: #8DD83D;
   color: #fff
 }
-
+/*
+contact-block 
+*/
 .contact-block {
   margin: 0 auto;
   max-width: 1400px;
@@ -661,6 +665,7 @@ adaptiv__games
     max-width: 320px;
   }
 }
+
 /*
 adaptiv__design
 */
@@ -671,6 +676,19 @@ adaptiv__design
 }
 @media (max-width: 700px) {
   .explore__consoles-btn {
-margin-left: 15px;
+margin-left: 10px;
+font-size: 16px;
+height: 70px;
+padding-top: 0px;
+padding-bottom: 0px;
+  }
+}
+@media (max-width: 700px) {
+  .design__your-btn {
+margin-left: 10px;
+font-size: 16px;
+height: 70px;
+padding-top: 0px;
+padding-bottom: 0px;
   }
 }
